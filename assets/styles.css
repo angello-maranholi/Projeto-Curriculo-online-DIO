@@ -1,20 +1,22 @@
 
-.container{
-    text-align: center;
-}
 
 .tituloPrincipal{
     color: red;
     display: flex;
-    flex-direction: row;
-    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Neue Machina';
 }
 .professionalPhoto{
     border-radius: 50%;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
 }
 .hello{
     margin: 50px;
     font-size: 30px;
+    text-align: center;
 }
 .previewInformation{
     color:brown

@@ -1,0 +1,20 @@
+
+.container {
+    text-align: center;
+}
+
+.tituloPrincipal {
+    color: red;
+}
+
+.personalInfo{
+    color: blue;
+}
+
+.academicInformation {
+    color: green;
+}
+
+.professionalExperience {
+    color: aqua;
+}

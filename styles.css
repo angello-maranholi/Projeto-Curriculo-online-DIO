@@ -1,20 +1,50 @@
 
-.container {
+.container{
     text-align: center;
 }
 
-.tituloPrincipal {
+.tituloPrincipal{
     color: red;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
 }
-
+.professionalPhoto{
+    border-radius: 50%;
+}
+.hello{
+    margin: 50px;
+    font-size: 30px;
+}
+.previewInformation{
+    color:brown
+}
 .personalInfo{
     color: blue;
 }
-
-.academicInformation {
+.skills {
+    color:darkorange;
+}
+.idiomas {
+    color: blueviolet;
+}
+.education {
     color: green;
 }
-
+.portifolio {
+    color: darkslategray;
+}
 .professionalExperience {
     color: aqua;
 }
+
+
+/* Desktop - 4 
+
+position: relative;
+width: 2560px;
+height: 2500px;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+*/

@@ -15,4 +15,36 @@ body{
     padding: 1rem;
     border: 1px solid white;
     border-radius: 48px;
+    z-index: 1;
 }
+.main ::before{
+    content: '';
+    background-image: url('/assets/img/blurtop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 90vw;
+    height: 100vw;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.main ::after{
+    position: fixed;
+    content: '';
+    background-image: url('/assets/img/blurfoot.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 100vw;
+    height: 90vw;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+/* Desktop - 4 
+position: relative;
+background: #FFFFFF;
+mix-blend-mode: normal;
+*/

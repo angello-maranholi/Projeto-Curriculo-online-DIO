@@ -1,21 +1,7 @@
 
 .header{
-    color: red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: white;
 }
-/* .backgroundMode{
-    position: absolute;
-    width: 4134.04px;
-    height: 2087.2px;
-    top: 1080px;
-    left: -75px;
-    border-radius: 593px;
-    transform: rotate(-27.33deg);
-    filter: blur(300px);
-    background: url(./img/fundo-blur.png);
-} */
 .professionalPhoto{
     border-radius: 50%;
     margin: 10px;
@@ -27,9 +13,40 @@
     font-family: "Neue Machina", sans-serif;
 }
 .previewInformation{
-    color:brown
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
-.personalInfo{
+.previewInformation p {
+    margin: .5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.previewInformation p::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+    font-size: 1.2rem;
+}
+.previewInformation .job::before {
+    background-image: url('/assets/img/icons/job.svg');
+}
+.previewInformation .phone::before {
+    background-image: url('/assets/img/icons/phone.svg');
+}
+.previewInformation .email::before {
+    background-image: url('/assets/img/icons/email.svg');
+}
+.previewInformation .location::before {
+    background-image: url('/assets/img/icons/location.svg');
+}
+/* .personalInfo{
     color: blue;
 }
 .skills {
@@ -46,15 +63,4 @@
 }
 .professionalExperience {
     color: aqua;
-}
-
-
-/* Desktop - 4 
-
-position: relative;
-width: 2560px;
-height: 2500px;
-
-background: #FFFFFF;
-mix-blend-mode: normal;
-*/
+} */

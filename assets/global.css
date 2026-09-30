@@ -6,9 +6,13 @@
     font-family: "Neue Machina";
     src: url('/assets/fonts/neue-machina-regular.otf');
 }
-.container{
+body{
     background-color: black;
+    color: white;
 }
 .main{
+    margin: 1rem;
     padding: 1rem;
+    border: 1px solid white;
+    border-radius: 48px;
 }

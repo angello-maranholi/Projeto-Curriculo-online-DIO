@@ -5,6 +5,17 @@
     flex-direction: column;
     align-items: center;
 }
+/* .backgroundMode{
+    position: absolute;
+    width: 4134.04px;
+    height: 2087.2px;
+    top: 1080px;
+    left: -75px;
+    border-radius: 593px;
+    transform: rotate(-27.33deg);
+    filter: blur(300px);
+    background: url(./img/fundo-blur.png);
+} */
 .professionalPhoto{
     border-radius: 50%;
     margin: 10px;

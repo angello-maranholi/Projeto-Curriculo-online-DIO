@@ -1,10 +1,25 @@
 
 .header{
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.header::before{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/icons/tripoint.svg');
 }
 .professionalPhoto{
     border-radius: 50%;
-    margin: 10px;
     width: 200px;
     height: 200px;
 }
@@ -13,16 +28,17 @@
     font-family: "Neue Machina", sans-serif;
 }
 .previewInformation{
-    color: white;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
 }
 .previewInformation p {
     margin: .5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-size: 1.2rem;
 }
 .previewInformation p::before {
     content: '';

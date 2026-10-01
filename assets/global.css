@@ -17,7 +17,7 @@ body{
     border-radius: 48px;
     z-index: 1;
 }
-.main ::before{
+.main::before{
     content: '';
     background-image: url('/assets/img/blurtop.svg');
     background-repeat: no-repeat;
@@ -30,16 +30,18 @@ body{
     top: 0;
     left: 0;
 }
-.main ::after{
+.main::after{
     position: fixed;
     content: '';
     background-image: url('/assets/img/blurfoot.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
-    width: 100vw;
-    height: 90vw;
+    width: 88vw;
+    height: 76vw;
     z-index: -1;
+    top: auto;
+    right: auto;
     bottom: 0;
     right: 0;
 }

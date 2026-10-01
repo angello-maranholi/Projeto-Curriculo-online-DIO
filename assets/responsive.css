@@ -1,4 +1,34 @@
 
 @media only screen and (min-width: 768px){
     
+    .main{
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+    .main::before{
+        width: 50vw;
+    }
+    .main::after {
+        width: 40vw;
+        height: 35vw;
+    }
+    .header{
+        display: grid;
+        grid-template-areas:
+        "professionalPhoto hello"
+        "professionalPhoto previewInformation";
+        
+    }
+    .professionalPhoto{
+        grid-area: professionalPhoto;
+        margin: 0 auto;
+    }
+    .hello{
+        grid-area: hello;
+        text-align: start;
+        max-width: 200px;
+    }
+    .previewInformation{
+        grid-area: previewInformation;
+    }
 }

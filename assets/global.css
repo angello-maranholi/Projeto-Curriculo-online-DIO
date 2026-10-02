@@ -42,7 +42,7 @@ body{
     z-index: -1;
     top: auto;
     right: auto;
-    bottom: 0;
+    bottom: -40px;
     right: 0;
 }
 /* Desktop - 4 

@@ -62,6 +62,10 @@
 .previewInformation .location::before {
     background-image: url('/assets/img/icons/location.svg');
 }
+.phone{
+    text-decoration: none;
+    
+}
 /* .personalInfo{
     color: blue;
 }

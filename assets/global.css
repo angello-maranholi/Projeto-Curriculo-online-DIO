@@ -45,8 +45,52 @@ body{
     bottom: -40px;
     right: 0;
 }
-/* Desktop - 4 
-position: relative;
-background: #FFFFFF;
-mix-blend-mode: normal;
-*/
+/* Criando as seções do currículo de skills, idiomas, informações profissionais, educação e experiência profissional.
+tornando-as clicáveis e com efeito de troca de background e cor de texto para interação com o usuário. */
+.bodyThing{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    border: 1px solid;
+    border-radius: 1rem;
+    transition: 0.25s;
+}
+.bodyThing.open,
+.bodyThing:hover{
+    background-color: #55569e;
+    border-color:#55569e;
+    color: white;
+}
+.things{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    /*muda o cursor para indicar que é clicável */
+    cursor: pointer; 
+}
+.things::after{
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/icons/arrow.svg');
+}
+.bodyThing.open .things::after{
+    transform: rotate(180deg);
+}
+.bodyList{
+    display: none;
+}
+.bodyThing.open .bodyList{
+    display: inline-block;
+}

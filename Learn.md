@@ -6,3 +6,18 @@ link do whatsapp direto com mensagem de boas vindas - utilizar após a última b
 para separar com espaço utilizar %20 
 para pular linha utilizar %0A
 NÃO precisa fechar a barra ao final da mensagem.
+
+
+
+
+
+
+// bodyThing.classList.toggle('open');
+
+        const activeThing = bodyThing.classList.contains('open')
+
+        if (activeThing) {
+            bodyThing.classList.remove('open');
+        } else {
+            bodyThing.classList.add('open');
+        } 

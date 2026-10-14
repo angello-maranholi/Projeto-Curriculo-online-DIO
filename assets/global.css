@@ -89,18 +89,19 @@ tornando-as clicáveis e com efeito de troca de background e cor de texto para i
 .bodyThing.open .things::after{
     transform: rotate(180deg);
 }
-.bodyList{
+.bodyThing.open .bodyThingContent{
+    display: inline-block;
+    height: auto;
+    opacity: 1;
+    padding: 1rem;
+}
+.bodyThingContent{
     overflow: hidden;
     height: 0;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
-.bodyThing.open .bodyList{
-    display: inline-block;
-    height: auto;
-    opacity: 1;
-}
-.bodyList {
+.bodyList{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -114,7 +115,7 @@ tornando-as clicáveis e com efeito de troca de background e cor de texto para i
     flex-direction: row;
     align-items: center;
     padding: 1rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 .bodyList li::before{
     content: '';

@@ -64,23 +64,5 @@
 }
 .phone{
     text-decoration: none;
-    
+    color: inherit;
 }
-/* .personalInfo{
-    color: blue;
-}
-.skills {
-    color:darkorange;
-}
-.idiomas {
-    color: blueviolet;
-}
-.education {
-    color: green;
-}
-.portifolio {
-    color: darkslategray;
-}
-.professionalExperience {
-    color: aqua;
-} */

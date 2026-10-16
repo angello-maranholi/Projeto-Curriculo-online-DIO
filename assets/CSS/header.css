@@ -62,7 +62,7 @@
 .previewInformation .location::before {
     background-image: url('/assets/img/icons/location.svg');
 }
-.phone{
+.previewInformation a{
     text-decoration: none;
     color: inherit;
 }

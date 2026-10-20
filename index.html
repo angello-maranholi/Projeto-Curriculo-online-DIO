@@ -32,9 +32,10 @@
             <h1 class="hello">Olá, <br>eu sou o<br>Angello Maranholi</h1>
             <div class="previewInformation">
                 <p class="job">Tech Intern</p>
-                <a href="https://www.google.com/maps/place/Cuiab%C3%A1+-+MT/@-15.8012442,-56.3740365,267712m/data=!3m2!1e3!4b1!4m6!3m5!1s0x939d9581e0c9c4a1:0xa5fce0cf4ef61aae!8m2!3d-15.5954142!4d-56.0925956!16s%2Fg%2F11bxfyhnzt!5m1!1e2?authuser=0&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
-                    <p class="location">Cuiabá-MT</p>
-                </a>
+                <!-- 2 modos de colocar link oculto no html, tag a dentro da tag p, ou tag p dentro da tag a, ambas as opções funcionam, mas a segunda opção possui semantica melhor. -->
+                <p class="location">
+                    <a href="https://www.google.com/maps/place/Cuiab%C3%A1+-+MT/@-15.8012442,-56.3740365,267712m/data=!3m2!1e3!4b1!4m6!3m5!1s0x939d9581e0c9c4a1:0xa5fce0cf4ef61aae!8m2!3d-15.5954142!4d-56.0925956!16s%2Fg%2F11bxfyhnzt!5m1!1e2?authuser=0&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">Cuiabá-MT</a>
+                </p>
                 <a href="https://wa.me/5565996440957/?text=Olá%20Angello,%0Agostaria%20de%20entrar%20em%20contato%20com%20você!" target="_blank"> 
                     <p class="phone">(65) 99644-0957</p>
                 </a>
@@ -45,7 +46,9 @@
         </header>
         <!-- Languages -->
         <section class="bodyThing open">
-            <button class="things" type="button">Idiomas</button>
+            <button class="things" type="button">
+                <h2>Idiomas</h2>
+            </button>
             <div class="bodyThingContent">
                 <ul class="languageList">
                     <li>Português (BR)</li>
@@ -56,20 +59,47 @@
         </section>
         <!-- Portfolio -->
         <section class="bodyThing open">
-            <button class="things" type="button">Portifólio</button>
+            <button class="things" type="button">
+                <h2>Portifólio</h2>
+            </button>
             <div class="bodyThingContent">
                 <ul class="repoList">
                     <li>
-                        <span class="repository">Web Pokedéx</span>
+                        <p class="repoName github">Web Pokedéx</p>
                         <a href="https://github.com/angello-maranholi/pokedex" target="_blank" class="github-link">GitHub</a>
                     </li>
                     <li>
-                        <span class="repository">Portifólio DIO</span>
+                        <span class="repoName github">Portifólio DIO</span>
                         <a href="https://github.com/angello-maranholi/Projeto-Curriculo-online-DIO" target="_blank" class="github-link">GitHub</a>
                     </li>
                     <li>
-                        <span class="repository">Home Page</span>
+                        <span class="repoName github">Home Page</span>
                         <a href="https://github.com/angello-maranholi/Meu-primeiro-html" target="_blank" class="github-link">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Professional Experience -->
+         <section class="bodyThing open">
+            <button class="things" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+            <div class="bodyThingContent">
+                <ul class="experiences">
+                    <li>
+                        <h3 class="experienceName">Advogado / Blanco Araújo Advocacia</h3>
+                        <p class="experienceDate calendar">03/2023 - Atual</p>
+                        <p class="experienceDesc">Consultoria e Assessoria Empresarial, advocacia generalista</p>
+                    </li>
+                    <li>
+                        <h3 class="experienceName">Advogado / Autônomo</h3>
+                        <p class="experienceDate calendar">08/2021 - Atual</p>
+                        <p class="experienceDesc">Advocacia generalista</p>
+                    </li>
+                    <li>
+                        <h3 class="experienceName">Assessor Jurídico / CREA-MT</h3>
+                        <p class="experienceDate calendar">02/2021 - 02/2023</p>
+                        <p class="experienceDesc">Assessoria jurídica administrativa de cobrança</p>
                     </li>
                 </ul>
             </div>

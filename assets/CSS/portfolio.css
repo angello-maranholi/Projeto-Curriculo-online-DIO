@@ -8,6 +8,13 @@
     padding: 0;
     list-style: none;
 }
+.repoName{
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .repoList li{
     display: flex;
     flex-direction: column;
@@ -15,7 +22,7 @@
     margin: 1rem 0;
     gap: 1px;
 }
-.repoList li::before{
+.repoName.github::before{
     content: '';
     display: inline-block;
     width: 1rem;
@@ -25,7 +32,4 @@
     background-image: url('/assets/img/icons/github.svg');
     margin-right: .5rem;
 }
-.github-link{
-    text-decoration: none;
-    color: inherit;
-}
+

@@ -62,7 +62,3 @@
 .previewInformation .location::before {
     background-image: url('/assets/img/icons/location.svg');
 }
-.previewInformation a{
-    text-decoration: none;
-    color: inherit;
-}

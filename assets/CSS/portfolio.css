@@ -10,7 +10,6 @@
 }
 .repoName{
     font-weight: bold;
-    margin-bottom: .5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,8 +18,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 1rem .5rem;
-    gap: 1px;
+    margin: 0 0 1rem 1.7rem;
 }
 .repoName.github::before{
     content: '';
@@ -32,4 +30,7 @@
     background-image: url('/assets/img/icons/github.svg');
     margin-right: .5rem;
 }
-
+.repoList p{
+    margin: 0 0 0 1.5rem;
+    font-style: italic;
+}

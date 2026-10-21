@@ -1,0 +1,6 @@
+
+.personalSkill{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}

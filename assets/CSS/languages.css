@@ -11,9 +11,11 @@
 .languageList li{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 1rem;
+    padding: .5rem;
     font-weight: 700;
+    margin-left: 1rem;
 }
 .languageList li::before{
     content: '';
@@ -24,4 +26,12 @@
     background-size: contain;
     background-image: url('/assets/img/icons/v-icon.svg');
     margin-right: .5rem;
+}
+.languageList p{
+    width: 50%;
+    margin: 0 0 0 1.5rem;
+    font-style: italic;
+    font-size: .9rem;
+    font-weight: 400;
+    padding: 0;
 }

@@ -1,21 +1,11 @@
 
 .educations{
-    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    list-style: none;
-}
-.educationName{
-    font-weight: bold;
-    margin-bottom: .5rem;
 }
 .education.calendar{
     font-style: italic;
-}
-.education{
-    margin-bottom: .5rem;
-    margin: 1rem;
 }
 .education.calendar::before{
     content: '';

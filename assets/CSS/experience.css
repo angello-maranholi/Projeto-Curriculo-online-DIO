@@ -1,10 +1,8 @@
 
 .experiences{
-    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    list-style: none;
 }
 .experienceName{
     font-weight: bold;
@@ -12,10 +10,6 @@
 }
 .experienceDate{
     font-style: italic;
-    font-size: .9rem;
-}
-.experienceDesc{
-    margin-bottom: .5rem;
 }
 .experienceDate.calendar::before{
     content: '';

@@ -1,6 +1,11 @@
 
+.skillsList{
+}
+.skillsList li{
+}
+.professionalSkills{
+}
 .personalSkill{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
+}
+.dealSkills{
 }

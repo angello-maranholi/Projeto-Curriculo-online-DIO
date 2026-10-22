@@ -1,16 +1,12 @@
 
 .socialMediaList{
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-start;
     width: 100%;
-    margin: 0;
     padding: 0;
-    list-style: none;
 }
 .socialMedia{
-    font-weight: bold;
-    display: flex;
     flex-direction: row;
     align-items: center;
 }
@@ -18,9 +14,9 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 0 0 1rem 1.7rem;
+    margin: 0 0 .1rem 1.5rem;
 }
-.socialMedia.socialLink::before{
+.socialMedia::before{
     content: '';
     display: inline-block;
     width: 1rem;
@@ -33,15 +29,15 @@
     margin: 0 0 0 1.5rem;
     font-style: italic;
 }
-.socialLink.linkedin::before {
+.socialMedia.linkedin::before {
     background-image: url('/assets/img/icons/linkedin.svg');
 }
-.socialMediaList.socialLink.github::before {
+.socialMedia.github::before {
     background-image: url('/assets/img/icons/github.svg');
 }
-.socialMediaList.socialLink.instagram::before {
+.socialMedia.instagram::before {
     background-image: url('/assets/img/icons/instagram.svg');
 }
-.socialMediaList.socialLink.youtube::before {
+.socialMedia.youtube::before {
     background-image: url('/assets/img/icons/youtube.svg');
 }

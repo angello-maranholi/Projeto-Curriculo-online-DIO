@@ -1,9 +1,14 @@
 
 .skillsList{
+    flex-direction: column;
 }
 .skillsList li{
+    flex-direction: row;
 }
 .professionalSkills{
+}
+.professionalSkills li{
+    max-width: 10px;
 }
 .personalSkill{
 }

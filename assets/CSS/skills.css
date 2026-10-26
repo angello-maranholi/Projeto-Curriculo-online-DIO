@@ -1,16 +1,27 @@
 
 .skillsList{
+    display: flex;
     flex-direction: column;
+    margin: 0 0 0 2.5rem;
+    width: 85%;
 }
-.skillsList li{
+.professionalSkills ul{
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
-.professionalSkills{
+.personalSkill ul{
+    flex-direction: column;
+    list-style: circle;
 }
-.professionalSkills li{
-    max-width: 10px;
+.dealSkills ul{
+    flex-direction: column;
+    list-style: circle;
 }
-.personalSkill{
-}
-.dealSkills{
+.imgSkills{
+    max-width: 50px;
+    margin: 0 .5rem;
 }

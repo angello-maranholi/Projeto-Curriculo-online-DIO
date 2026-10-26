@@ -1,6 +1,5 @@
 
 @media only screen and (min-width: 768px){
-    
     .main{
         max-width: 1024px;
         margin: 1rem auto;
@@ -30,5 +29,21 @@
     }
     .previewInformation{
         grid-area: previewInformation;
+    }
+    .skillsList{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "professional personal"
+        "professional deal";
+    }
+    .professionalSkills{
+        grid-area: professional;
+    }
+    .personalSkill{
+        grid-area: personal;
+    }
+    .dealSkills{
+        grid-area: deal;
     }
 }

@@ -6,69 +6,116 @@
   "phone": "(65) 99644-0957",
   "email": "angellovmr@outlook.com",
   "skills": {
-    "hardSkills": [
+    "professionalSkills": [
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "logo": "https://raw.githubusercontent.com/angello-maranholi/Projeto-Curriculo-online-DIO/blob/main/assets/img/icons/javascript.svg"
       },
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "logo": "https://raw.githubusercontent.com/angello-maranholi/Projeto-Curriculo-online-DIO/blob/main/assets/img/icons/html5.svg"
       },
       {
         "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "logo": "https://raw.githubusercontent.com/angello-maranholi/Projeto-Curriculo-online-DIO/blob/main/assets/img/icons/css3.svg"
       },
       {
         "name": "Git",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        "logo": "https://raw.githubusercontent.com/angello-maranholi/Projeto-Curriculo-online-DIO/blob/main/assets/img/icons/git.svg"
       },
       {
         "name": "GitHub",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "logo": "https://raw.githubusercontent.com/angello-maranholi/Projeto-Curriculo-online-DIO/blob/main/assets/img/icons/github.svg"
       }
     ],
-    "softSkills": [
-      "Empatia",
-      "Liderança",
-      "Trabalho em equipe",
-      "Flexibilidade",
-      "Organização"
+    "personalSkill": [
+      "Organização",
+      "Comprometimento",
+      "Rápido Aprendizado",
+      "Trabalho em equipe"
+    ],
+    "dealSkills": [
+      "Js Developer",
+      "Java AWS",
+      "Alumni"
     ]
   },
-  "languages": [
-    "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
-  ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Web Pokedex",
+      "url": "https://github.com/angello-maranholi/Web-Project-Pokedex-HTML-CSS-Js",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Portifólio DIO",
+      "url": "https://github.com/angello-maranholi/Projeto-Curriculo-online-DIO",
+      "github": true
+    },
+    {
+      "name": "Home Page",
+      "url": "https://github.com/angello-maranholi/Primeiro-Projeto-Web-do-Zero",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Advogado / Blanco Araújo Advocacia",
+      "period": "03/2023 - Atual",
+      "description": "Consultoria e Assessoria Empresarial, advocacia generalista"
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "name": "Advogado / Autônomo",
+      "period": "08/2021 - Atual",
+      "description": "Advocacia generalista"
     },
     {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Assessor Jurídico / CREA-MT",
+      "period": "02/2021 - 02/2023",
+      "description": "Assessoria jurídica administrativa de cobrança"
     }
-  ]
+  ],
+  "educations": [
+    {
+      "course": "Engenharia de Software",
+      "local": "UNESA - Universidade Estácio de Sá",
+      "period": "Janeiro/2026 - Dezembro/2026 - Cursando"
+    },
+    {
+      "course": "Direito",
+      "local": "IESMT - Instituto de Ensino Superior de Mato Grosso",
+      "period": "Janeiro/2015 - Dezembro/2019 - Completo"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Português BR",
+      "level": "Native"
+    },
+    {
+      "language": "Inglês",
+      "level": "Intermediate"
+    },
+    {
+      "language": "Espanhol",
+      "level": "Basic"
+    }
+  ],
+  "socialMedia": [
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/angello-maranholi/"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/angemaragnol"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://www.github.com/angello-maranholi/"
+    },
+     {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/angello-maranholi"
+    }
+  ] 
 }

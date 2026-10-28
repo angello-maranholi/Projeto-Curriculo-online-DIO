@@ -19,7 +19,7 @@ body{
 }
 .main::before{
     content: '';
-    background-image: url('/assets/img/blurtop.svg');
+    background-image: url('/assets/img/icons/blurtop.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -33,7 +33,7 @@ body{
 .main::after{
     position: fixed;
     content: '';
-    background-image: url('/assets/img/blurfoot.svg');
+    background-image: url('/assets/img/icons/blurfoot.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;

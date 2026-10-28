@@ -18,6 +18,18 @@
     background-size: contain;
     background-image: url('/assets/img/icons/tripoint.svg');
 }
+.header::after{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/icons/dio.svg');
+}
 .professionalPhoto{
     border-radius: 50%;
     width: 200px;

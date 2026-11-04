@@ -23,7 +23,19 @@ function updateProfile(profileData) {
     profileEmail.href = `mailto:${profileData.email}`;
 }
 
+function updateSkills(profileData) {
+    const professionalSkillsList = document.getElementById('professionalSkillsList');
+    professionalSkillsList.innerHTML = profileData.skills.professionalSkills.map(professionalSkill => `<li><img class="imgSkills" src="${professionalSkill.logo}" alt="${professionalSkill.name}" title="${professionalSkill.name}"></li>`).join('');
+    
+    const personalSkillsList = document.getElementById('personalSkillsList');
+    personalSkillsList.innerHTML = profileData.skills.personalSkill.map(personalSkill => `<li>${personalSkill}</li>`).join('');
+
+    const dealSkillsList = document.getElementById('dealSkillsList');
+    dealSkillsList.innerHTML = profileData.skills.dealSkills.map(dealSkill => `<li>${dealSkill}</li>`).join('');
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfile(profileData)
+    updateSkills(profileData)
 })()

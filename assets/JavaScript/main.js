@@ -34,8 +34,17 @@ function updateSkills(profileData) {
     dealSkillsList.innerHTML = profileData.skills.dealSkills.map(dealSkill => `<li>${dealSkill}</li>`).join('');
 }
 
+function updateLanguages(profileData) {
+    const languageList = document.getElementById('languageList');
+    languageList.innerHTML = profileData.languages.map(language => `<li>
+                        <h3>${language.language}</h3>
+                        <p>${language.level}</p>
+                    </li>`).join('');
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfile(profileData)
     updateSkills(profileData)
+    updateLanguages(profileData)
 })()

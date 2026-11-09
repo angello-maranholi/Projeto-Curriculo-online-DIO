@@ -9,23 +9,23 @@
     "professionalSkills": [
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/angello-maranholi/Projeto-Curriculo-online-DIO/mainassets/img/icons/javascript.svg"
+        "logo": "https://raw.githubusercontent.com/angello-maranholi/Projeto-Curriculo-online-DIO/main/assets/img/icons/javascript.svg"
       },
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/angello-maranholi/Projeto-Curriculo-online-DIO/mainassets/img/icons/html5.svg"
+        "logo": "https://raw.githubusercontent.com/angello-maranholi/Projeto-Curriculo-online-DIO/main/assets/img/icons/html5.svg"
       },
       {
         "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/angello-maranholi/Projeto-Curriculo-online-DIO/mainassets/img/icons/css3.svg"
+        "logo": "https://raw.githubusercontent.com/angello-maranholi/Projeto-Curriculo-online-DIO/main/assets/img/icons/css3.svg"
       },
       {
         "name": "Git",
-        "logo": "https://raw.githubusercontent.com/angello-maranholi/Projeto-Curriculo-online-DIO/mainassets/img/icons/git.svg"
+        "logo": "https://raw.githubusercontent.com/angello-maranholi/Projeto-Curriculo-online-DIO/main/assets/img/icons/git.svg"
       },
       {
         "name": "GitHub",
-        "logo": "https://raw.githubusercontent.com/angello-maranholi/Projeto-Curriculo-online-DIO/mainassets/img/icons/github.svg"
+        "logo": "https://raw.githubusercontent.com/angello-maranholi/Projeto-Curriculo-online-DIO/main/assets/img/icons/github.svg"
       }
     ],
     "personalSkill": [

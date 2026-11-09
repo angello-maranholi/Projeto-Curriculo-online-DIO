@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: "Neue Machina";
-    src: url('assets/fonts/neue-machina-regular.otf');
+    src: url('/assets/fonts/neue-machina-regular.otf');
 }
 body{
     background-color: black;
@@ -19,7 +19,7 @@ body{
 }
 .main::before{
     content: '';
-    background-image: url('assets/img/icons/blurtop.svg');
+    background-image: url('/assets/img/icons/blurtop.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -33,7 +33,7 @@ body{
 .main::after{
     position: fixed;
     content: '';
-    background-image: url('assets/img/icons/blurfoot.svg');
+    background-image: url('/assets/img/icons/blurfoot.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -103,7 +103,7 @@ tornando-as clicáveis e com efeito de troca de background e cor de texto para i
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('assets/img/icons/arrow.svg');
+    background-image: url('/assets/img/icons/arrow.svg');
     transition: 0.25s;
 }
 .bodyThing.open .things::after{

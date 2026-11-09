@@ -22,11 +22,8 @@ https://www.figma.com/design/g6zA6klLrCWZAp76tzoVJZ/Portfolio---EDUCATION?node-i
 
 ## Como executar o projeto
 
-Neste primeiro momento o projeto ainda não está hospedado, então será necessário clonar o repositório:
-
-1. Clone o repositório.
-2. Abra a pasta do projeto no VS Code.
-3. Execute o arquivo `index.html` com a extensão Live Server.
+O projeto está hospedado diretamente no GitHub Pages, podendo ser acessado diretamente pelo link: 
+https://angello-maranholi.github.io/Projeto-Curriculo-online-DIO/
 
 ## Diferenciais e aprendizados
 

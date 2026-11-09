@@ -42,9 +42,37 @@ function updateLanguages(profileData) {
                     </li>`).join('');
 }
 
+function updatePortfolio(profileData) {
+    const portfolioList = document.getElementById('portfolioList');
+    portfolioList.innerHTML = profileData.portfolio.map(portfolioItem => `<h3 class="repoName github"><a href="${portfolioItem.url}" target="_blank">${portfolioItem.name}</a></h3>`).join('');
+}
+
+function updateExperiences(profileData) {
+    const experiencesList = document.getElementById('experiencesList');
+    experiencesList.innerHTML = profileData.professionalExperience.map(experience => `<li><h3 class="experienceName">${experience.name}</h3>
+                        <p class="experienceDate calendar">${experience.period}</p>
+                        <p>${experience.description}</p></li>`).join('');
+}
+
+function updateEducation(profileData) {
+    const educationList = document.getElementById('educationList');
+    educationList.innerHTML = profileData.educations.map(education => `<li><h3>${education.course}</h3>
+                        <p class="education location">${education.local}</p>
+                        <p class="education calendar">${education.period}</p></li>`).join('');
+}
+
+function updateSocialMedia(profileData) {
+    const socialMediaList = document.getElementById('socialMediaList');
+    socialMediaList.innerHTML = profileData.socialMedia.map(socialMedia => `<li><h3 class="socialMedia ${socialMedia.name.toLowerCase()}"><a href="${socialMedia.url}" target="_blank">${socialMedia.name}</a></h3></li>`).join('');
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfile(profileData)
     updateSkills(profileData)
     updateLanguages(profileData)
+    updatePortfolio(profileData)
+    updateExperiences(profileData)
+    updateEducation(profileData)
+    updateSocialMedia(profileData)
 })()

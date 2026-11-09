@@ -30,14 +30,14 @@
     font-style: italic;
 }
 .socialMedia.linkedin::before {
-    background-image: url('/assets/img/icons/linkedin.svg');
+    background-image: url('assets/img/icons/linkedin.svg');
 }
 .socialMedia.github::before {
-    background-image: url('/assets/img/icons/github.svg');
+    background-image: url('assets/img/icons/github.svg');
 }
 .socialMedia.instagram::before {
-    background-image: url('/assets/img/icons/instagram.svg');
+    background-image: url('assets/img/icons/instagram.svg');
 }
 .socialMedia.youtube::before {
-    background-image: url('/assets/img/icons/youtube.svg');
+    background-image: url('assets/img/icons/youtube.svg');
 }
